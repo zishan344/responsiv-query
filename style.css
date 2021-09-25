@@ -209,12 +209,15 @@ font-size:18px;}
         align-items: center;gap: 50px;}
         .footer-middle{flex-direction: column; gap: 50px;}
 
-        .middle-left{padding-top:20px; align-self: center;}
+         .middle-left{padding-top:20px; align-self: center;position:relative;}
+        .middle-left i{position: absolute;bottom:1px;right:-0.5px;}
 
          
         .nav-manu a{text-decoration: none;color:white;transition:0.5s;}
         .nav-manu h2{color: #FBD784;}
-
+ .btn{position: absolute;right:65px;}
+        .footer-top span{margin-left:-150px;margin-top: 10px;
+         display: inline-block;}
          .footer-bottom{}
          .left-div{display: flex;line-height: 30px;font-size: 1rem;}
          .manu{display:flex;}
